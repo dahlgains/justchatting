@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { establishConnection, sendMessage } from "@/services/api.js";
+import { sendMessage } from "../services/api.js";
 import { io } from "socket.io-client";
 
 const Home = () => {
